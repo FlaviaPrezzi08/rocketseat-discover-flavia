@@ -17,9 +17,9 @@ function toggMode() {
    
    const img= document.querySelector("#profile img")
    if (html.classList.contains('light')) {
-        img.setAttribute('src', '../imagens/avatar-light.png' )
+        img.setAttribute('src', './imagens/avatar-light.png' )
     } else{
-        img.setAttribute('src', '../imagens/Avatar.png' )
+        img.setAttribute('src', './imagens/Avatar.png' )
     }
 
 

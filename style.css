@@ -1,5 +1,5 @@
 /*body{
-    background-image: url(../imagens/bg-mobile-dark\ \(1080x1920\).jpg);
+    background-image: url(./imagens/bg-mobile-dark\ \(1080x1920\).jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;}/*vai preencher todo o espaço de tele*/
@@ -11,7 +11,7 @@
 
 :root {
     --text-color: white;
-    --bg-url:url(../imagens/bg-mobile-dark\ \(1080x1920\).jpg);
+    --bg-url:url(./imagens/bg-mobile-dark\ \(1080x1920\).jpg);
     --stroke-color:rgba(255, 255, 255, 0.5);
     --surface-color: rgba(255, 255, 255, 0.05);
     --surface-color-houver: rgba(255, 255, 255, 0.2);
@@ -21,7 +21,7 @@
 
 .light {
     --text-color: black;
-    --bg-url:url(../imagens/bg-mobile-light\ \(1080x1920\).jpg);
+    --bg-url:url(./imagens/bg-mobile-light\ \(1080x1920\).jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-houver: rgba(0, 0, 0, 0.2);
@@ -183,10 +183,10 @@ footer {
 /*midia queries*/
 @media(min-width: 700px) {
     :root{
-        --bg-url: url("../imagens/bg-desktop-dark (1920x1080).jpg");
+        --bg-url: url("./imagens/bg-desktop-dark (1920x1080).jpg");
     }
     .light{
-        --bg-url: url("../imagens/bg-desktop-light (1920x1080).jpg");
+        --bg-url: url("./imagens/bg-desktop-light (1920x1080).jpg");
 
     }
 }
